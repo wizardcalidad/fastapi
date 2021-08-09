@@ -1,7 +1,8 @@
 import unittest
 
 
-class TestSum(unittest.TestCase):
+class TestSumOfTwo(unittest.TestCase):
 
-    def test_two_number_sum(self):
-        assert sum([2, 2]) == 4
+    def test_sum_two(self):
+        
+        assert sum([2,2]) == 4
