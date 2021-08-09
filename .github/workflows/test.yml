@@ -30,7 +30,7 @@ jobs:
       - name: Install Dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: flit install --symlink
-      - name: Test
-        run: bash scripts/test.sh
-      - name: Upload coverage
-        uses: codecov/codecov-action@v1
+      # - name: Test
+      #   run: bash scripts/test.sh
+      # - name: Upload coverage
+      #   uses: codecov/codecov-action@v1
