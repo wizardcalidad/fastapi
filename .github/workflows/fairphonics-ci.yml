@@ -3,9 +3,11 @@
 
 name: CI for the fairphonics devops task
 
+
 on:
   push:
     branches: [ fairphonics]
+    
   pull_request:
     branches: [ master, main ]
 
