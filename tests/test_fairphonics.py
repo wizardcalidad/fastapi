@@ -1,5 +1,3 @@
-# As part of the CI, you will create a simple unit test
-# (very simple one, that checks 2 + 2 = 4 e.g.)
 import unittest
 
 
